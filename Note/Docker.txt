@@ -1,0 +1,61 @@
+﻿Fiziksel Sunucu Sistemlerinin Sınırları ve Sanallaştırmaya Geçiş
+
+Fiziksel sistemlerin başlıca sorunları şunlardır:
+
+- Ölçeklenebilirlik: İş yükü arttıkça yeni sunucular eklemek ve yönetmek zorlaşır.
+- Yönetim Karmaşıklığı: Çok sayıda sunucuyu yönetmek, güncellemek ve olası sorunlara müdahale etmek zaman alıcı ve uzmanlık gerektirir.
+- Maliyet: Yeni donanım alımı ve bakım maliyetleri yüksektir.
+- Kesinti Riski: Tek bir sunucunun arızalanması tüm sistemi etkileyebilir.
+- Güncelleme Zorluğu: Sistemdeki tüm sunucuları güncellemek uzun ve riskli bir süreçtir.
+
+Bu sorunlara çözüm olarak sanallaştırma teknolojisi öne çıkmaktadır. Sanallaştırma, tek bir fiziksel sunucunun birden fazla sanal makineye bölünerek kullanılmasına izin verir. Bu sayede:
+
+- Kaynakların daha etkin kullanılması: Fiziksel kaynaklar daha verimli kullanılır.
+- Esneklik: Sistem kolayca büyütülüp küçültülebilir.
+- Yönetim kolaylığı: Sanal makineler merkezi olarak yönetilebilir.
+- Hızlı dağıtım: Yeni uygulamalar hızlıca dağıtılabilir.
+- Kesinti riskini azaltma: Bir sanal makine arızalansa bile diğerleri etkilenmez.
+
+
+Sanallaştırmanın Avantajları ve Dezavantajları
+
+Sanallaştırmanın Avantajları:
+
+- Yönetim Kolaylığı: Birden fazla sanal makineyi tek bir fiziksel makine üzerinde çalıştırarak sistem yönetimi büyük ölçüde kolaylaşır. Sanal makinelerin oluşturulması, silinmesi ve klonlanması gibi işlemler hızlı ve pratiktir.
+- Esneklik: Farklı işletim sistemlerini ve uygulamaları aynı anda çalıştırma imkanı sunar. Bu sayede test ortamları hızlı bir şekilde kurulabilir ve farklı yazılımların uyumluluğu kolayca kontrol edilebilir.
+- Maliyet Tasarrufu: Fiziksel sunucu sayısını azaltarak enerji ve soğutma maliyetlerinde tasarruf sağlar.
+- Güvenlik: Sanal makineler, fiziksel makineden izole edilerek olası güvenlik riskleri minimize edilir. Bir sanal makinede oluşan bir sorun diğerlerini etkilemez.
+- Hızlı Yedekleme ve Kurtarma: Sanal makinelerin anlık görüntüleri (snapshot) alınabilir ve herhangi bir sorun durumunda sistem hızlı bir şekilde eski haline getirilebilir.
+
+Sanallaştırmanın Dezavantajları:
+
+- Kaynak Kullanımı: Her sanal makine için bir işletim sistemi ve gerekli uygulamaların yüklü olması, sistem kaynaklarının verimsiz kullanılmasına neden olabilir. Bu durum özellikle büyük sistemlerde önemli bir sorun haline gelebilir.
+- Karmaşıklık: Büyük ölçekli sanallaştırma ortamlarının yönetimi, otomasyon araçları olmadan zor olabilir. Binlerce sanal makineyi yönetmek için ek bir çaba ve uzmanlık gerektirebilir.
+- Güncelleme İşlemleri: Sanal makinelerin güncellenmesi sırasında sistemin kesintiye uğramaması için dikkatli planlama yapılması gerekir. Özellikle kullanıcıların aktif olduğu sistemlerde güncelleme işlemleri karmaşıklaşabilir.
+
+Sonuç:
+
+Sanallaştırma, bilgisayar sistemlerinin yönetimini kolaylaştıran ve esnekliği artıran güçlü bir teknolojidir. Ancak, özellikle büyük ölçekli sistemlerde yönetim karmaşıklığı ve kaynak kullanım verimliliği gibi bazı dezavantajları da bulunmaktadır. Bu nedenle, sanallaştırma teknolojisini kullanmadan önce sistemin ihtiyaçları ve büyüklüğü dikkatlice değerlendirilmelidir.
+
+
+Docker'ın temel çalışma prensipleri ve mimarisi
+
+Docker'ın Ne İşe Yaradığı: Uygulamaları izole edilmiş ortamlarda (konteyner) çalıştırmak için kullanılan bir araçtır.
+Docker Mimarisi: Docker client ve Docker daemon arasındaki iletişim, REST API üzerinden gerçekleşir. Client'tan gelen komutlar daemon tarafından işlenir.
+Docker İmajları: Bir uygulamanın çalışması için gereken tüm bileşenleri (işletim sistemi, kütüphaneler, uygulama dosyaları) içeren paketlenmiş bir yapıdır.
+Docker Konteynerları: İmajların çalıştırıldığı izole edilmiş ortamlardır.
+Docker Hub: Hazır Docker imajlarının bulunduğu bir depo.
+Docker Komutları:
+docker pull: Bir imajı Docker Hub veya başka bir registery'den indirir.
+docker run: İndirilen bir imajdan bir konteyner oluşturur ve çalıştırır.
+docker build: Bir Dockerfile'dan bir imaj oluşturur.
+Docker Volume: Konteynerlerin kalıcı veri depolama alanı.
+
+Docker'ın Çalışma Mantığı:
+Bir Docker imajı seçilir veya oluşturulur.
+Bu imajdan bir konteyner oluşturulur.
+Konteyner çalıştırılır ve uygulama bu konteyner içinde çalışmaya başlar.
+
+docker build -f Dockerfile -t dockerwebapi:1.0 .
+
+-------------------------------------- docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
