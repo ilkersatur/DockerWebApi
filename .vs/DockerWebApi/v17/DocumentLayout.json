@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|c:\\users\\ilkers\\desktop\\dockerwebapi\\dockerwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|c:\\users\\ilkers\\desktop\\dockerwebapi\\dockerwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|c:\\users\\ilkers\\desktop\\dockerwebapi\\dockerwebapi\\dockerwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|solutionrelative:dockerwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|c:\\users\\ilkers\\desktop\\dockerwebapi\\dockerwebapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|c:\\users\\ilkers\\desktop\\dockerwebapi\\dockerwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C47F86D-0785-436A-8A67-06C312C19811}|DockerWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +54,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DockerWebApi.http",
+              "DocumentMoniker": "C:\\Users\\ilkers\\Desktop\\DockerWebApi\\DockerWebApi\\DockerWebApi.http",
+              "RelativeDocumentMoniker": "DockerWebApi.http",
+              "ToolTip": "C:\\Users\\ilkers\\Desktop\\DockerWebApi\\DockerWebApi\\DockerWebApi.http",
+              "RelativeToolTip": "DockerWebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-15T18:31:33.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ilkers\\Desktop\\DockerWebApi\\DockerWebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\ilkers\\Desktop\\DockerWebApi\\DockerWebApi\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAABAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-15T17:46:52.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\ilkers\\Desktop\\DockerWebApi\\DockerWebApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ilkers\\Desktop\\DockerWebApi\\DockerWebApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

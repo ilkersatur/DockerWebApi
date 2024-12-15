@@ -31,3 +31,4 @@ C:\Users\ilkers\Desktop\DockerWebApi\DockerWebApi\obj\Debug\net8.0\refint\Docker
 C:\Users\ilkers\Desktop\DockerWebApi\DockerWebApi\obj\Debug\net8.0\DockerWebApi.pdb
 C:\Users\ilkers\Desktop\DockerWebApi\DockerWebApi\obj\Debug\net8.0\DockerWebApi.genruntimeconfig.cache
 C:\Users\ilkers\Desktop\DockerWebApi\DockerWebApi\obj\Debug\net8.0\ref\DockerWebApi.dll
+C:\Users\ilkers\Desktop\DockerWebApi\DockerWebApi\obj\Debug\net8.0\DockerWebApi.sourcelink.json
