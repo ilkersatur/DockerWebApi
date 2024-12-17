@@ -38,3 +38,5 @@
     }
   }
 }
+
+//docker run --name dockerwebapi -p 32770:8080  dockerwebapi:test
